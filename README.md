@@ -4,7 +4,7 @@
 This is the final Capstone Project for the ALX Back-End Software Engineering programme. It is a robust RESTful API built with **Django** and **Django REST Framework**. The application allows users to manage tasks through Create, Read, Update, and Delete (CRUD) operations.
 
 ## Technologies Used
-- **Language:** Python 3.x
+- **Language:** Python 3
 - **Framework:** Django & Django REST Framework
 - **Database:** SQLite (Default)
 - **Architecture:** MVC / MVT

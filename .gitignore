@@ -1,2 +1,21 @@
-node_modules
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Environments
 .env
+venv/
+env/
+.venv/
+.conda/
+
+# IDE
+.vscode/
+.idea/

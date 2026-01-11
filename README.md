@@ -1,15 +1,34 @@
-# Task Manager API - ALX Capstone
+# Task Manager API - ALX Backend Capstone
 
 ## Introduction
-The Task Manager API is a backend service built with Node.js and Express. It allows users to manage their daily tasks programmatically. This project serves as the final Capstone for the ALX Back-End Software Engineering program.
+This is the final Capstone Project for the ALX Back-End Software Engineering programme. It is a robust RESTful API built with **Django** and **Django REST Framework**. The application allows users to manage tasks through Create, Read, Update, and Delete (CRUD) operations.
+
+## Technologies Used
+- **Language:** Python 3.x
+- **Framework:** Django & Django REST Framework
+- **Database:** SQLite (Default)
+- **Architecture:** MVC / MVT
+- **Tools:** Git, GitHub, VS Code
 
 ## Features
-- **Health Check:** Verify API status.
-- **CRUD Operations:** Create, Read, and Delete tasks.
-- **Lightweight:** Built with ExpressJS for speed and simplicity.
+- **API Health Check:** Endpoint to verify system status.
+- **Task Management:** Full CRUD capabilities for task items.
+- **Browsable API:** Leverages DRF's web interface for easy testing.
 
-## Installation
+## API Endpoints
 
-1. Clone the repository:
+| Method | Endpoint | Description |
+| :--- | :--- | :--- |
+| `GET` | `/status/` | Check API health |
+| `GET` | `/tasks/` | List all tasks |
+| `POST` | `/tasks/` | Create a new task |
+| `GET` | `/tasks/<id>/` | Get details of a specific task |
+| `PUT` | `/tasks/<id>/` | Update a specific task |
+| `DELETE` | `/tasks/<id>/` | Delete a specific task |
+
+## Setup & Installation
+
+1. **Clone the Repository**
    ```bash
    git clone <your-repo-url>
+   cd alx-backend-capstone

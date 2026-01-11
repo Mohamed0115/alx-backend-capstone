@@ -30,5 +30,5 @@ This is the final Capstone Project for the ALX Back-End Software Engineering pro
 
 1. **Clone the Repository**
    ```bash
-   git clone <your-repo-url>
+   git clone [<https://github.com/Mohamed0115/alx-backend-capstone>](https://github.com/Mohamed0115/alx-backend-capstone)
    cd alx-backend-capstone
